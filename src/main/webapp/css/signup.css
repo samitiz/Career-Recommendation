@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #1c90d0;
+    --secondary-color: #21aaf6;
+    --background-color: #0f172a;
+    --form-back: #1e293b;
+    --hover: #21aaf6;
+    --white: #a8a8a9;
+    --input-back: #334155;
+    --label: #afb1b5;
+}
+body {
+    font-family: sans-serif;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--background-color);
+}
+.image img {
+    width: 500px;
+    margin-right: 130px;
+}
+.container {
+    margin-right: 70px;
+    background-color: var(--form-back);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.header {
+    background-color: var(--form-back);
+    padding: 20px 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header h2 {
+    margin: 0;
+}
+.form {
+    padding: 15px 40px;
+}
+.form-control {
+    margin-bottom: 10px;
+    position: relative;
+}
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #afb1b5;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.form-control input {
+    display: block;
+    border: 1px solid var(--input-back);
+    border-radius: 5px;
+    width: 100%;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    background-color: var(--input-back);
+    color: rgb(199, 200, 202);
+}
+
+.form-control input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+.form-control.success input {
+    border-color: #2ecc71;
+}
+.form-control.error input {
+    border-color: #ed4245;
+}
+.form-control i.fa-eye {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    visibility: visible;
+    cursor: pointer;
+}
+
+.form-control i {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #ed4245;
+}
+.member {
+    color: rgb(199, 200, 202);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.member a {
+    color: #1c90d0;
+    text-decoration: none;
+}
+
+.member a:hover {
+    text-decoration: underline;
+}
+.form button {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: inherit;
+    cursor: pointer;
+}
+.form button:hover {
+    background-color: var(--secondary-color);
+}

@@ -1,0 +1,28 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--white);
+    margin-top: 60px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.bxs-chevrons-left {
+    transition: 0.3s;
+    color: var(--primary-color);
+}
+h3:hover i {
+    transform: translateX(-20%);
+}
+.success {
+    color: rgb(16, 148, 16);
+}

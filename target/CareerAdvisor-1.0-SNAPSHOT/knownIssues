@@ -1,0 +1,10 @@
+FIXME 1. Back button after logout
+FIXME 2. Update interests (foreign key error)
+FIXME 3. Javascript not loading in admin panels
+SOLVED 4. space seperated names dont display (universityList)
+SOLVED 5. Check for admin table duplicate email
+SOLVED 6. Home page load interests
+FIXME 7. on error degreeList dont load in add interest page
+SOLVED 8. Redirect to error page
+FIXME 9. set ContextParam
+SOLVED 10. Session handling at backend

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nova+Flat&family=Open+Sans:wght@300;400;500&family=Poppins:wght@500&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --primary-color: #1c90d0;
+    --secondary-color: #21aaf6;
+    --background-color: #0f172a;
+    --form-back: #1e293b;
+    --hover: #21aaf6;
+    --white: #b7b7bd;
+    --input-back: #334155;
+    --label: #afb1b5;
+}
+
+.navbar {
+    height: 60px;
+    background-color: var(--form-back);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.home {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.home a {
+    color: white;
+}
+.logout {
+    margin-right: 20px;
+    text-align: center;
+    width: 150px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.line {
+    color: #4f5357;
+}
+.exit {
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.exit:hover {
+    color: white;
+}
+.name {
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid var(--primary-color);
+    padding: 3px 7px;
+    border-radius: 5px;
+    background-color: #1c90d0;
+    font-family: "Open Sans", sans-serif;
+}
+.name:hover {
+    background-color: #21aaf6;
+}

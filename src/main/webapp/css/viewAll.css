@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #1c90d0;
+    --secondary-color: #21aaf6;
+    --background-color: #0f172a;
+    --form-back: #1e293b;
+    --hover: #21aaf6;
+    --white: #a8a8a9;
+    --input-back: #334155;
+    --label: #afb1b5;
+}
+body {
+    font-family: sans-serif;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+}
+.container {
+    font-family: sans-serif;
+    /*background-color: var(--input-back);*/
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);*/
+    border-radius: 5px;
+    width: 800px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    font-size: 13px;
+    color: white;
+    white-space: nowrap;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+}
+
+table > thead {
+    background-color: var(--form-back);
+    color: #fff;
+}
+
+table > thead th {
+    padding: 15px;
+    font-size: 14px;
+}
+
+table th,
+table td {
+    padding: 15px 15px;
+}
+table > tbody > tr {
+    background-color: #253649;
+    transition: 0.3s ease-in-out;
+    font-size: 14px;
+}
+
+table > tbody > tr:hover {
+    background-color: #2b3b4e;
+}
+.username {
+    width: 800px;
+}
+.location {
+    width: 300px;
+}
+i {
+    cursor: pointer;
+}
+
+.fa-trash-alt {
+    color: #ed4245;
+}
+.id {
+    width: 200px;
+}
+.remove {
+    width: 150px;
+}
+button {
+    background: none;
+    border: none;
+}
+.fa-edit{
+    color: var(--white);
+}

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nova+Flat&family=Open+Sans:wght@300;400;500&family=Poppins:wght@500&family=Pushster&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --primary-color: #0da79c;
+    --secondary-color: #47cac1;
+    --background-color: #fff0e5;
+    --below-level: #262628;
+    --above-level: #4a4a4e;
+    --form-back: #3b3d46;
+    --hover: #47cac1;
+    --white: #a8a8a9;
+    --input-back: #22262d;
+}
+body {
+    background-color: var(--background-color);
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.container .header {
+    text-align: center;
+    font-size: 50px;
+    color: var(--primary-color);
+    font-family: "Pushster", cursive;
+    letter-spacing: 1px;
+}
+.header p {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+    color: var(--white);
+}
+.wrapper {
+    margin-top: 120px;
+}
+.field {
+    padding: 10px;
+}
+.field a button {
+    padding: 10px;
+    width: 280px;
+    border-radius: 25px;
+    border: none;
+    background-color: #2b2d42;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+i {
+    margin-left: 10px;
+    color: white;
+    width: 20px;
+    transition: 0.3s;
+}
+.field a button:hover {
+    transform: translateX(10px);
+}
+.field a button:hover i {
+    transform: translateX(10px);
+}
